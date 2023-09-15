@@ -1,16 +1,19 @@
 body{
-  background-color: hsl(44, 88%, 97%);
+  background-color: hsl(44, 88%, 93%);
 }
+
 main {
   font-family: 'Cabin', Arial, Helvetica, sans-serif;
   line-height: 2rem;
+  font-size: 22px;
+
   margin: auto;
   max-width: 60ch;
-  font-size: 22px;
-  padding: 2rem;
+  padding: 2rem 3rem;
+  
   background-color: hsl(44, 88%, 97%);
   color:	hsl(0, 9%, 18%);
- 
+
 }
 
 /*about me main heading*/
@@ -18,17 +21,20 @@ h1{
   font-family:'Montserrat', Arial, Helvetica, sans-serif;
   font-weight:bold;
   line-height: 3rem;
+
   color:hsl(195, 100%, 35%);
 }
+
 /*'Hi I'm...' Heading*/
 h2,h3,h4,h5,h6{
   font-family:'Montserrat', Arial, Helvetica, sans-serif;
   font-weight:bold;
   line-height: 3rem;
+
   color: 	hsl(0, 9%, 18%);
 }
 
-
+/*adjust italics thinness*/ 
 em{
   font-weight:200;
 }
@@ -43,16 +49,19 @@ ul{
 .button {
   font-family:'Montserrat', Arial, Helvetica, sans-serif;
   font-weight:bold;
-  background-color: hsl(44, 88%, 97%);
-  border-style: solid;
-  border-color:	hsl(0, 94%, 36%);
-  color: 	hsl(0, 94%, 36%);
   text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: .5rem;
+
   margin: 1rem;
+  padding: 0.5rem 1rem;
   display:block;
   width: fit-content;
+
+  background-color: hsl(44, 88%, 97%);
+  color: 	hsl(0, 94%, 36%);
+  border-style: solid;
+
+  border-color:	hsl(0, 94%, 36%);
+  border-radius: .5rem;
 }
 
 /* Hover state */
@@ -61,13 +70,4 @@ a:hover {
   color:hsl(44, 88%, 97%);
   font-weight:bold;
 
-}
-
-/*
-a:active {
-  background-color:hsl(195, 100%, 35%);
-  color:hsl(44, 88%, 97%);
-  border-color:	hsl(50, 94%, 49%);
-  border-style:dotted;
-  
 }
