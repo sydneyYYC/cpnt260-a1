@@ -1,5 +1,5 @@
 body{
-  background-color: hsl(44, 88%, 93%);
+  background-color: hsl(44, 88%, 97%);
 }
 
 main {
@@ -9,7 +9,7 @@ main {
 
   margin: auto;
   max-width: 60ch;
-  padding: 2rem 3rem;
+  padding: 3rem;
   
   background-color: hsl(44, 88%, 97%);
   color:	hsl(0, 9%, 18%);
@@ -45,7 +45,7 @@ ul{
   width: fit-content;
 }
 
-/*button styles*/
+/*buttons*/
 .button {
   font-family:'Montserrat', Arial, Helvetica, sans-serif;
   font-weight:bold;
